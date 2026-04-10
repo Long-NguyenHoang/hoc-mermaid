@@ -1,3 +1,4 @@
+```mermaid 
 erDiagram
     USERS ||--o| EMPLOYEES : "has profile (1:1)"
     USERS ||--o| CANDIDATES : "has profile (1:1)"
@@ -96,3 +97,4 @@ erDiagram
         string TargetEntity
         datetime Timestamp
     }
+```
